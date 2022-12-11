@@ -1,0 +1,32 @@
+body {
+    font-family: 'Raleway' , sans-serif ;
+    margin: 0 30px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/** HEADER **/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo {
+    width: 120px;
+}
+.heberg-nav , .activities-nav {
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+.heberg-nav:hover, .activities-nav:hover {
+    border-top: solid 5px #0065FC;
+    color: #0065FC;
+}
