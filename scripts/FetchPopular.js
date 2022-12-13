@@ -1,4 +1,4 @@
-fetch("../datas/popular.json")
+fetch("https://maerac.github.io/BookiFR/datas/popular.json")
 .then((res) => res.json())
 .then((data) => {
 

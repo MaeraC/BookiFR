@@ -4,7 +4,7 @@ const nav                   = document.createElement("nav");
 const heberg                = document.createElement("a");
 const activities            = document.createElement("a");
 
-logo.setAttribute("src", "../assets/logo/Booki.png");
+logo.setAttribute("src", "https://maerac.github.io/BookiFR/assets/logo/Booki.png");
 logo.setAttribute("alt", "Logo Booki");
 heberg.setAttribute("href", "");
 activities.setAttribute("href", "");

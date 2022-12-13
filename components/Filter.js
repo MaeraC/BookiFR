@@ -5,16 +5,16 @@ function DisplayFilters() {
 
     const arrayFilter = [
         {
-            title: "Economique", image: "../assets/icones/economique.png"
+            title: "Economique", image: "https://maerac.github.io/BookiFR/assets/icones/economique.png"
         },
         {
-            title: "Familial", image: "../assets/icones/familiale.png"
+            title: "Familial", image: "https://maerac.github.io/BookiFR/assets/icones/familiale.png"
         },
         {
-            title: "Romantique", image: "../assets/icones/romantique.png"
+            title: "Romantique", image: "https://maerac.github.io/BookiFR/assets/icones/romantique.png"
         },
         {
-            title: "Animaux adoptés", image: "../assets/icones/animaux.png"
+            title: "Animaux adoptés", image: "https://maerac.github.io/BookiFR/assets/icones/animaux.png"
         }
     ];
 

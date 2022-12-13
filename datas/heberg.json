@@ -3,35 +3,35 @@
         "title": "Auberge La Cannebière",
         "price": 25,
         "rate": 4,
-        "image": "../assets/hebergements/3_medium/1.jpg",
+        "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/1.jpg",
         "id": 1
     },
     {
         "title": "Hôtel du Port",
         "price": 52,
         "rate": 5,
-        "image": "../assets/hebergements/3_medium/2.jpg",
+        "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/2.jpg",
         "id": 2
     },
     {
         "title": "Hôtel les Mouettes",
         "price": 76,
         "rate": 4,
-        "image": "../assets/hebergements/3_medium/3.jpg",
+        "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/3.jpg",
         "id": 3
     },
     {
         "title": "Hôtel de la Mer",
         "price": 46,
         "rate": 3,
-        "image": "../assets/hebergements/3_medium/4.jpg",
+        "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/4.jpg",
         "id": 4
     },
     {
         "title": "Auberge Le Panier",
         "price": 23,
         "rate": 4,
-        "image": "../assets/hebergements/3_medium/5.jpg"
+        "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/5.jpg"
         ,
         "id": 5
     },
@@ -39,7 +39,7 @@
         "title": "Hôtel Chez Amina",
         "price": 96,
         "rate": 6,
-        "image": "../assets/hebergements/3_medium/6.jpg",
+        "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/6.jpg",
         "id": 6
     }
 ]
