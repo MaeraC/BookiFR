@@ -1,0 +1,95 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden; 
+    animation: container 4s linear ;
+}
+#loader h1 {
+    color: #0065FC;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#loader img {
+    width: 20%;
+    height: 20%;
+}
+.circle, .circle-inner, .circle-core, .circle2 {
+    display: flex;
+    border-radius: 50%;
+}
+.circle {
+    position: absolute;
+    top: 51.5%;
+    left: 48.3%;
+    transform: translate(-50%, -50%);
+    background-color: #0065FC;
+    height: 45px;
+    width: 35px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.circle2 {
+    position: absolute;
+    top: 51.5%;
+    left: 50.9%;
+    transform: translate(-50%, -50%);
+    background-color: #0065FC;
+    height: 45px;
+    width: 35px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.circle-inner {
+    align-self: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    animation-name: circleAnimate;
+    animation-duration:500ms;
+    animation-direction:alternate;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+.circle-core {
+    align-self: center;
+    height: 25%;
+    width: 25%;
+    background-color: #0065FC;
+    animation-name: coreAnimate;
+    animation-duration: 1s;
+    animation-direction:alternate;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+@keyframes container {
+    0% {  
+        visibility: visible; 
+        opacity: 9;
+    }
+    75% {
+        opacity: 5;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@keyframes circleAnimate {
+    0% { height: 90%; width: 90% }
+}
+@keyframes coreAnimate {
+    0% { height: 90%; width: 90% }
+}

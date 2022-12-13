@@ -9,9 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Booki</title>
+    <link rel="stylesheet" href="style/loader.css">
     <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
+
+    <div id="loader">
+        <img src="assets/logo/Booki@3x.png" alt="Logo Booki">
+        <div class="animation">
+            <div class="circle">
+                <div class="circle-inner">
+                    <div class="circle-core"></div>
+                </div>
+            </div>
+        </div>
+        <div class="animation">
+            <div class="circle2">
+                <div class="circle-inner">
+                    <div class="circle-core"></div>
+                </div>
+            </div>
+
+            <h1 class="text-anim">Bienvenue</h1>
+        </div>
+        
+    </div>
+
     <header class="header"></header>
 
     <section class="section-search"></section>
@@ -30,6 +53,8 @@
 
     <footer class="footer"></footer>
 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="scripts/TypewriterEffect.js"></script>
     <script src="components/Header.js"></script>
     <script src="components/Form.js"></script>
     <script src="components/Filter.js"></script>
