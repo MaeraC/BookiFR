@@ -1,0 +1,38 @@
+
+    {
+        "container1": [
+            {
+                "title1": "Vieux Port",
+                "image1": "../assets/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg",
+                "className": "small-card"
+            },
+            {
+                "title1": "Fort de Pomègues",
+                "image1": "../assets/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg",
+                "className": "medium-card"
+            },
+            {
+                "title1": "Iles du Frioul",
+                "image1": "../assets/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg",
+                "className": "big-card"
+            }
+        ],
+        "container2": [
+            {
+                "title1": "Parc National des Calanques",
+                "image1": "../assets/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg",
+                "className": "medium-card2"
+            },
+            {
+                "title1": "Notre-Dame-De-La-Garde",
+                "image1": "../assets/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg",
+                "className": "big-card2"
+            },
+            {
+                "title1": "Parc Longchamps",
+                "image1": "../assets/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg",
+                "className": "small-card2"
+            }
+        ]
+        
+    }

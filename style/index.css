@@ -148,7 +148,8 @@ header {
 }
 
 /** SECTION HEBERG **/
-.first-section {
+
+.hebergements {
     display: flex;
     justify-content: space-between;
 }
@@ -164,6 +165,7 @@ header {
 }
 .section-heberg h2 , .section-most-popular h2 {
     padding: 30px;
+    padding-bottom: 10px;
 }
 .container-heberg {
     display: flex;
@@ -186,13 +188,15 @@ header {
     margin: 20px;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 5px 5px 10px 1px rgb(216, 216, 216);
 }
 .container-most-popular a {
     width: 85%;
     display: flex;
     height: 150px;
+    box-shadow: 5px 5px 10px 1px rgb(216, 216, 216);
 }
-.container-heberg a:hover , .container-most-popular a:hover{
+.container-heberg a:hover , .container-most-popular a:hover, .container1 a:hover{
     transform: scale(1.03);
 }
 .container-heberg img , .container-most-popular img{
@@ -228,4 +232,70 @@ header {
 }
 .display-more:hover {
     color: #0065FC;
+}
+
+/** SECTION ACTIVITES   **/
+.activities-section h2 {
+    margin-left: 30px;
+}
+.activities-section {
+    margin: 30px 0;
+}
+.container1 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 a {
+    width: 21%;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 1px rgb(216, 216, 216);
+}
+.container1 a img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.container1 p {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+.big-card1 , .big-card2 {
+    height: 380px;
+}
+.medium-card {
+    position: absolute;
+    top: 43%;
+}
+.big-card img , .big-card2 img {
+    height: 90%;
+}
+.big-card p, .big-card2 p {
+    padding-top: 8px;
+}
+.medium-card , .medium-card2{
+    height: 200px;
+}
+.medium-card img , .medium-card2 img{
+    height: 82%;
+}
+.medium-card p , .medium-card2 p{
+    padding-top: 8px;
+}
+.small-card , .small-card2{
+    height: 140px;
+}
+.small-card2 {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+}
+.small-card img, .small-card2 img {
+    height: 75%;
+}
+.small-card p, .small-card2 p {
+    padding-top: 5px;
 }
