@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     visibility: hidden; 
-    animation: container 5s linear ;
+    animation: container 3s linear ;
 }
 #loader h1 {
     color: #0065FC;

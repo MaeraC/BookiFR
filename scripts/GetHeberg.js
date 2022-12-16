@@ -1,4 +1,4 @@
-fetch("https://maerac.github.io/BookiFR/datas/hebergPop.json")
+fetch("https://maerac.github.io/BookiFR/datas/heberPop.json")
 .then((res) => res.json())
 .then((data) => {
     const hebergements = data;
@@ -13,7 +13,5 @@ fetch("https://maerac.github.io/BookiFR/datas/hebergPop.json")
             const DisplayHeberg = DisplayHebergFactory(hebergement);
             DisplayHeberg.getDisplayfactory();
         }
-
-        
     })
 })
