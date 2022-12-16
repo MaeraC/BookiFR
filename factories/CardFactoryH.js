@@ -1,5 +1,5 @@
 function CardFactory(data) {
-    const { title, price, rate, image } = data;
+    const { title, price, rate, image, id } = data;
 
     function getCardModel() {
         const sectionHeberg                 = document.querySelector(".container-heberg");
@@ -10,7 +10,7 @@ function CardFactory(data) {
         const priceHeberg                   = document.createElement("p");
         const rateHeberg                    = document.createElement("div");
 
-        card.setAttribute("href", "");
+        card.setAttribute("href", `pages/HebergementsPage.html?id=${id}`);
         img.setAttribute("src", image);
         description.classList.add("description-card");
 
@@ -42,5 +42,5 @@ function CardFactory(data) {
         description.appendChild(rateHeberg);
     }
  
-    return { title, image, rate, price, getCardModel }
+    return { title, image, rate, price, id, getCardModel }
 }

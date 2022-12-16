@@ -4,28 +4,79 @@
         "price": 25,
         "rate": 4,
         "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/1.jpg",
-        "id": 1
+        "id": 1,
+        "tags": [
+            "WI-FI gratuit",
+            "Superbe petit-déjeuner",
+            "Chambre non-fumeur", 
+            "Restaurant",
+            "Bar/Lounge",
+            "Spa", 
+            "Piscine",
+            "Climatisation",
+            "Baignoire",
+            "Service d'étage"
+        ]
     },
     {
         "title": "Hôtel du Port",
         "price": 52,
         "rate": 5,
         "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/2.jpg",
-        "id": 2
+        "id": 2,
+        "tags": [
+            "WI-FI gratuit",
+            "Superbe petit-déjeuner",
+            "Chambre non-fumeur", 
+            "Restaurant",
+            "Bar/Lounge",
+            "Spa", 
+            "Piscine",
+            "Navette aéroport",
+            "Climatisation", 
+            "Réception 24h/24h",
+            "Baignoire",
+            "Service d'étage", 
+            "Service blanchisserie"
+        ]
     },
     {
         "title": "Hôtel les Mouettes",
         "price": 76,
         "rate": 4,
         "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/3.jpg",
-        "id": 3
+        "id": 3,
+        "tags": [
+            "WI-FI gratuit",
+            "Superbe petit-déjeuner",
+            "Chambre non-fumeur", 
+            "Restaurant",
+            "Bar/Lounge",
+            "Spa", 
+            "Piscine",
+            "Climatisation", 
+            "Baignoire",
+            "Service d'étage"
+        ]
     },
     {
         "title": "Hôtel de la Mer",
         "price": 46,
         "rate": 3,
         "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/4.jpg",
-        "id": 4
+        "id": 4,
+        "tags": [
+            "WI-FI gratuit",
+            "Superbe petit-déjeuner",
+            "Restaurant",
+            "Bar/Lounge",
+            "Spa", 
+            "Piscine",
+            "Climatisation", 
+            "Réception 24h/24h",
+            "Baignoire", 
+            "Service blanchisserie"
+        ]
     },
     {
         "title": "Auberge Le Panier",
@@ -33,13 +84,40 @@
         "rate": 4,
         "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/5.jpg"
         ,
-        "id": 5
+        "id": 5,
+        "tags": [
+            "WI-FI gratuit",
+            "Superbe petit-déjeuner", 
+            "Restaurant",
+            "Bar/Lounge",
+            "Spa", 
+            "Piscine",
+            "Climatisation", 
+            "Baignoire",
+            "Service d'étage", 
+            "Service blanchisserie"
+        ]
     },
     {
         "title": "Hôtel Chez Amina",
         "price": 96,
-        "rate": 6,
+        "rate": 5,
         "image": "https://maerac.github.io/BookiFR/assets/hebergements/3_medium/6.jpg",
-        "id": 6
+        "id": 6,
+        "tags": [
+            "WI-FI gratuit",
+            "Superbe petit-déjeuner",
+            "Chambre non-fumeur", 
+            "Restaurant",
+            "Bar/Lounge",
+            "Spa", 
+            "Piscine",
+            "Navette aéroport",
+            "Climatisation", 
+            "Réception 24h/24h",
+            "Baignoire",
+            "Service d'étage", 
+            "Service blanchisserie"
+        ]
     }
 ]

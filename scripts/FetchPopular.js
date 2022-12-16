@@ -18,5 +18,7 @@ fetch("https://maerac.github.io/BookiFR/datas/popular.json")
         const cardModel = CardFactoryMP(item);
         cardModel.getCardModelMP();
     });
+
+    
 })
 
