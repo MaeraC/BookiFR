@@ -1,4 +1,4 @@
-fetch("https://maerac.github.io/BookiFR/datas/heberg.json")
+fetch("https://maerac.github.io/BookiFR/datas/hebergPop.json")
 .then((res) => res.json())
 .then((data) => {
     const hebergements = data;
@@ -8,8 +8,6 @@ fetch("https://maerac.github.io/BookiFR/datas/heberg.json")
         let verifyUrl = new URLSearchParams(window.location.search);
         verifyUrl.has(hebergement.id);
         let param = verifyUrl.get('id');
-
-        console.log(hebergement)
 
         if (hebergement.id == param) {
             const DisplayHeberg = DisplayHebergFactory(hebergement);
